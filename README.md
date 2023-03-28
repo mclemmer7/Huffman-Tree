@@ -1,6 +1,8 @@
 # Huffman-Tree
 
-This program uses the Tree Data Structure and command line parameters to run. This is the final project from my Data Structures II class and I created all of these files from scratch. This program takes in a file for input and then creates a frequency table with the occurrences of each character in the file. The frequency table is sorted from the element with the highest frequency to the lowest. The huffman tree is created by making a table of tree nodes and two nodes are removed from the table to make a parent node with the merged elements and frequencies. Once the tree is created, it is traversed to create the encoding table. Then the encoding table is used to write the encoding for each character to the given output file based on how those characters appear in the input file.
+This program uses the Tree Data Structure and command line parameters to run. This is the final project from my Data Structures II class and I created all of these files from scratch.
+
+This program takes in a file for input and then creates a frequency table with the occurrences of each character in the file. The frequency table is sorted from the element with the highest frequency to the lowest. The huffman tree is created by making a table of tree nodes and two nodes are removed from the table to make a parent node with the merged elements and frequencies. Once the tree is created, it is traversed to create the encoding table. The encoding for each character is created by adding a 1 when it traverses to the left child and a 0 when it traverses to the right child. Then the encoding table is used to write the encoding for each character to the given output file based on how those characters appear in the input file.
 
 ## These are the command line parameters that should be entered:
 
